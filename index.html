@@ -4,10 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Number Solution</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 <body>
-    <h2>We found the number status: Even Number Or Odd Number.</h2>
-    <script src="even-vs-odd.js"></script>
+    
+    <div class="calc">
+        <h1>Calculator With Function</h1>
+        <h2 id="answer"></h2>
+    
+    <input type="number" id="num1" placeholder="Enter First Number">
+    
+    <br> <br>
+
+    <input type="number" id="num2" placeholder="Enter Second Number">
+
+    <br> <br>
+
+    <select id="select-type">
+        <option class="bg">Select a Calculation Type</option>
+        <option value="Addition">Addition</option>
+        <option value="Subtraction">Subtraction</option>
+        <option value="Multiplication">Multiplication</option>
+        <option value="Division">Division</option>
+    </select>
+
+    <br> <br>
+
+    <button type="submit" onclick="calculator()">Click to Calculate</button>
+    </div>
+    
+
+    <script src="Cal.js"></script>
 </body>
 </html>
